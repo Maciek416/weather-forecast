@@ -1,0 +1,25 @@
+{
+  "name": "weather-forecast",
+  "version": "0.0.1",
+  "description": "Generate a weather forecast for a GPS location",
+  "private": false,
+  "engines": {
+    "node": ">= 0.8.14",
+    "npm": "1.1.x"
+  },
+  "main": "weather-forecast",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Maciek416/weather-forecast.git"
+  },
+  "dependencies": {
+    "request": "2.27.0",
+    "cheerio": "0.12.3",
+    "underscore": "1.5.2"
+  },
+  "keywords": [
+    "gps", "weather"
+  ],
+  "author": "Maciej Adwent (http://github.com/Maciek416)",
+  "license": "BSD"
+}
