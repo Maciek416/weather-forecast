@@ -1,6 +1,8 @@
 weather-forecast
 ================
 
+[![NPM](https://nodei.co/npm/weather-forecast.png)](https://nodei.co/npm/weather-forecast/)
+
 Generate a weather forecast for a GPS location
 
 ```javascript
