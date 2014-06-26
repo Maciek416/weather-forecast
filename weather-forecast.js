@@ -54,6 +54,7 @@ module.exports = {
 
       } else {
         console.error("error requesting met.no forecast");
+        done();
       }
     });
   }
