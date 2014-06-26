@@ -45,7 +45,7 @@ module.exports = {
 
     request(url, function(error, response, body) {
 
-      if (!error && response.statusCode == 200) {
+      if (!error && response.statusCode < 400) {
 
         var $ = cheerio.load(body);
         var nearbyForecasts = closestInstantForecasts($, $("product time"), FORECASTS_COUNT);
